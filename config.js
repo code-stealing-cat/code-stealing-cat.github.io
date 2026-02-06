@@ -9,7 +9,7 @@ const CONFIG = {
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 💝",
+    pageTitle: "내 사랑이 되어줄래? 💝",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
@@ -22,35 +22,35 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            text: "나 좋아해?",                                    // First interaction
+            yesBtn: "웅!",                                             // Text for "Yes" button
+            noBtn: "아니",                                               // Text for "No" button
+            secretAnswer: "난 널 좋아하지 않아, 사랑해! ❤️"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
-            nextBtn: "Next ❤️"                                         // Text for the next button
+            text: "얼마나~?",                          // For the love meter
+            startText: "이만큼!",                                   // Text before the percentage
+            nextBtn: "넘겨바 ❤️"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            text: "2026년 발렌타인데이 나랑 보낼래? 🌹", // The big question!
+            yesBtn: "웅!",                                             // Text for "Yes" button
+            noBtn: "아니"                                                 // Text for "No" button
         }
     },
 
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "우아아아아 이만큼?? 🥰🚀💝",  // Shows when they go past 5000%
+        high: "쩐다! 🚀💝",              // Shows when they go past 1000%
+        normal: "히히! 🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
+        title: "🎉💝💖💝💓",
+        message: "일루와!! 뽀뽀해주께",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
